@@ -1,3 +1,4 @@
+Blog on Difference between HTTP1.1 vs HTTP2
 Introduction:
 HTTP is the fundamental protocol that enables the exchange of information between web servers and clients.
 As the digital landscape continues to evolve,
@@ -16,3 +17,49 @@ Conclusion:
 In summary, the transition from HTTP/1.1 to HTTP/2 represents a major leap in the world of web communication. HTTP/2's multiplexing, header compression,
 and other optimizations contribute to a faster and more efficient web experience. As the internet continues to evolve,
 understanding these protocol differences becomes crucial for web developers, system administrators, and anyone interested in the intricacies of web performance. 
+
+ Blog about objects and its internal representation in Javascript:
+
+Introduction:
+
+JavaScript, as a versatile and dynamic programming language, owes much of its power to objects.
+Objects are the building blocks that enable developers to model real-world entities and encapsulate data and functionality.
+Understanding how JavaScript represents objects internally is essential for writing efficient and optimized code.
+
+The Basics of Objects:
+In JavaScript, objects are collections of key-value pairs, where each key is a string (or Symbol) and each value can be of any data type,
+including other objects. Objects can be created using literals or through constructors, 
+providing a flexible and intuitive way to structure data.
+
+Hidden Classes and Shape Changes:
+
+JavaScript engines use a concept called hidden classes to optimize property access and improve performance.
+When an object's structure (shape) changes, it may result in a deoptimization.
+Consistent property order and type across instances of the same class help JavaScript engines optimize memory usage and execution speed.
+
+Memory Management:
+JavaScript uses a garbage collector to automatically reclaim memory that is no longer in use. Objects that are no longer referenced are identified and removed from memory.
+Developers need not worry about manual memory management, but understanding how objects are stored in memory aids in writing memory-efficient code.
+
+Conclusion:
+The Objects are the backbone of JavaScript, providing a powerful way to structure and organize data. Their internal representation involves intricate mechanisms like property descriptors, prototypes, and hidden classes, which contribute to the language's flexibility and performance. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
